@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>Doces da Sarah</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header>
+        <img id="phone" src="imagens/logo-mobile.png" alt="Logo Doces da Sarah. Contorno de um bolo de dois andares, com um coraçao rosa no topo.">
+        <img id="pc" src="imagens/logo-pc.png" alt="Logo Doces da Sarah. Contorno de um bolo de dois andares, com um coraçao rosa no topo.">
+        <i id= "menuburgue"class= "material-symbols-outlined" onclick="clickMnenu()" >menu</i>
+        <menu id="menuburg">
+            <ul>
+                <li><a href="#">Faça seu Pedido</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione quam mollitia libero molestias nemo laboriosam quisquam, error ipsum eligendi eius minus reiciendis, quos inventore autem a fugit. Iure, quae.</p>
+    </main> 
+    <script>
+        function clickMnenu() {
+            if (menuburg.style.display == 'block'){
+                menuburg.style.display = 'none'
+            } else {
+                menuburg.style.display = 'block'
+            }
+        }
+    </script>
+    
+</body>
+</html>
