@@ -40,13 +40,14 @@ img#heart{
 }
 
 img#heart{
-  width: 30px;
+  width: 25px;
   right: 0%;
 }
 
 i#menuburgue {
-  position: relative;
-  right: 47%;
+  position: absolute;
+  left: 47;
+  top: 135px;
   color: var(--corrosa);
   display: block;
   text-align: center;
@@ -54,7 +55,6 @@ i#menuburgue {
 
 i#menuburgue:hover{
   background-color: var(--corlilas);
-  background-size: 20px;
   cursor: pointer;
 
 }
@@ -79,6 +79,7 @@ menu > ul > li > a {
   text-align: center;
   background-color: var(--corroxo);
   color:white;
+  
 }
 
 menu > ul > li > a:hover {
@@ -112,4 +113,5 @@ footer{
   font-size: 10px;
   color: var(--corlilas);
   text-align: right;
+  padding: 5px;
 }
