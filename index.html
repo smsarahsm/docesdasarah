@@ -13,17 +13,18 @@
     <header>
         <img id="phone" src="imagens/logo-mobile.png" alt="Logo Doces da Sarah. Contorno de um bolo de dois andares, com um coraçao rosa no topo.">
         <img id="pc" src="imagens/logo-pc.png" alt="Logo Doces da Sarah. Contorno de um bolo de dois andares, com um coraçao rosa no topo.">
-        <i id= "menuburgue"class= "material-symbols-outlined" onclick="clickMnenu()" >menu</i>
+        <i id= "menuburgue"class= "material-symbols-outlined" onclick="clickMenu()" >menu</i>
         <menu id="menuburg">
             <ul>
-                <li><a href="#">Cardápio</a></li>
+                <li><a href="index.html">Cardápio</a></li>
+                <li><a href="indexfazerPedido.html">Fazer Pedido</a></li>
                 <li><a href="https://www.instagram.com/s2_docesdasarah?igshid=MmVlMjlkMTBhMg==" target="_blank">Instagram</a></li>
                 <li><a href="https://api.whatsapp.com/send?phone=5511981273027&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20%F0%9F%8D%B0%F0%9F%A7%81" target="_blank">Contato</a></li>
             </ul>
         </menu>
     </header>
     <main>
-        <h1><img id ="heart"src="imagens/docesdarahCoracao-1.png" alt="">Escolha a Massa</h1>
+        <h2><img id ="heart"src="imagens/docesdarahCoracao-1.png" alt="">Escolha a Massa</h2>
         <ul type="circle">
             <li>Massa Branca</li>
             <li>Chocolate</li>
@@ -31,7 +32,7 @@
             <li>Pão de Mel</li>
         </ul>
 
-        <h1 id="recehio"><img id ="heart"src="imagens/docesdarahCoracao-1.png" alt="">Escolha o Recheio</h1>
+        <h2 id="recehio"><img id ="heart"src="imagens/docesdarahCoracao-1.png" alt="">Escolha o Recheio</h2>
         <ul type="circle">
             <li>Brigadeiro R$ 80,00</li>
             <li>Doce de leite R$ 80,00</li>
@@ -43,13 +44,13 @@
         </ul>
         <p>*adição de frutas acréscimo de R$ 10 por Kg.<br>(Morango, Abacaxi, Nozes, Ameixa, Pêssego, etc.)</p>
 
-        <h1><img id ="heart"src="imagens/docesdarahCoracao-1.png" alt="">Escolha a Cobertura</h1>
+        <h2><img id ="heart"src="imagens/docesdarahCoracao-1.png" alt="">Escolha a Cobertura</h2>
         <ul type="circle">
             <li>Ganache</li>
             <li>Chantilly</li>
         </ul>
 
-        <h1><img id ="heart"src="imagens/docesdarahCoracao-1.png" alt="">Escolha o Tamanho</h1>
+        <h2><img id ="heart"src="imagens/docesdarahCoracao-1.png" alt="">Escolha o Tamanho</h2>
         <ul type="circle">
             <li>PP: 10-12 fatias, 15 cm de diâmetro – 1 Kg</li>
             <li>P: 20-22 fatias, 20 cm de diâmetro – 2 Kg</li>
@@ -64,19 +65,13 @@
             <li>Para outros tamanhos e recheios entre em contato;</li>
             <li>As encomendas devem ser feitas com no mínimo uma semana de antecedência.</li>
         </ul>
-    </main> 
-    <script>
-        function clickMnenu() {
-            if (menuburg.style.display == 'block'){
-                menuburg.style.display = 'none'
-            } else {
-                menuburg.style.display = 'block'
-            }
-        }
-    </script>
-</body>
-<footer>
 
-    <p>Preços válidos a partir de julho de 2024</p>
-</footer>
+        <button type="button"><a href="indexfazerPedido.html">Fazer Pedido</a></button>
+
+    </main>
+    <footer th:fragment="footer">
+        <p>Preços válidos a partir de julho de 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
