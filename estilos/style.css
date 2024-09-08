@@ -10,7 +10,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   font-size: auto;
-  box-sizing: border-box;
   margin: auto;
 }
 
@@ -36,13 +35,13 @@ img{
 img#phone {display: block;}
 img#pc {display: none;}
 
-img#heart{
-  display: inline-block;
-}
+
 
 img#heart{
-  width: 25px;
+  display: inline-block;
+  width: 17px;
   right: 0%;
+  margin-right: 3px;
 }
 
 i#menuburgue {
@@ -57,23 +56,23 @@ i#menuburgue {
 i#menuburgue:hover{
   background-color: var(--corlilas);
   cursor: pointer;
-
 }
 
 menu {
   display: none;
-  position:static;
-  margin: 20px;
+  margin: 0px;
+  padding: 0px;
 }
 
 menu > ul {
   list-style-type: none;
-  margin: 2px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
 }
 
 menu > ul > li > a {
   display: block;
-  margin: 0px;
   padding: 2px;
   border-top: 1px solid white;
   text-decoration: none;
@@ -86,9 +85,9 @@ menu > ul > li > a:hover {
   background-color: var(--corlilas);
 }
 
-h1{
+h2{
   margin: 10px;
-  font-size: 22px;
+  font-size: 20px;
   color: var(--corroxo);
   text-align: center;
 }
@@ -106,12 +105,54 @@ ul{
 
 ul#details{
   margin-top: 20px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
 footer{
   font-size: 10px;
   color: var(--corlilas);
-  right: 10px;
+  margin-top: 15px;
+  text-align: start;
+}
+
+h1#pedido{
+  margin: 0px;
+  color: var(--corrosa);
+  text-align: center;
   padding: 5px;
+}
+
+select{
+  background-color: var(white);
+  border: 2px solid var(--corrosa); 
+  color: var(--corroxo); 
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: #fbac52;
+  border: #fbac52;
+  width: 120px;
+  height: 30px;
+  color: white; 
+  border-radius: 5px;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+button > a{
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: #f6c389fc;
 }
