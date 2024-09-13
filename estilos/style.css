@@ -104,9 +104,8 @@ ul{
 }
 
 ul#details{
-  margin-top: 20px;
-  margin-bottom: 15px;
   text-align: center;
+  left: 47;
 }
 
 footer{
@@ -116,7 +115,7 @@ footer{
   text-align: start;
 }
 
-h1#pedido{
+h1{
   margin: 0px;
   color: var(--corrosa);
   text-align: center;
@@ -136,7 +135,7 @@ select{
 button{
   background-color: #fbac52;
   border: #fbac52;
-  width: 120px;
+  width: 150px;
   height: 30px;
   color: white; 
   border-radius: 5px;
